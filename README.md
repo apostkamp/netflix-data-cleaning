@@ -1,4 +1,4 @@
-# Netflix Dataset Cleaning Project
+# Netflix Data Cleaning Project
 
 ## 1. Introduction
 
