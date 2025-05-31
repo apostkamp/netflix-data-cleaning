@@ -35,7 +35,7 @@ The following steps were taken to clean and prepare the dataset:
 
 6.  **Handling Missing Values (NaN):**
     * Checked for missing values using `data.isna().sum()`. The initial check after loading indicated no missing values recognized by default as NaN.
-    * Despite this, `data.dropna(inplace=True)` was used to remove any rows that might contain NaN values, ensuring data integrity. (Note: Some columns like 'Director' might have string placeholders like "Not Given" which are not treated as NaN by default but were not specifically handled in this cleaning script beyond the general `dropna`).
+    * Despite this, `data.dropna(inplace=True)` was used to remove any rows that might contain NaN values, ensuring data integrity.
 
 7.  **Column-Specific Cleaning and Transformations:**
 
